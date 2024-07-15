@@ -1,9 +1,12 @@
 
-print('''Make sure turn on "Hide solved problems from problemset" in Codeforces account. And make more friends...''')
+# print('''Make sure turn on "Hide solved problems from problemset" in Codeforces account. And make more friends...''')
 
-name = input("Handle/Email : ")
-from getpass import getpass
-pas = getpass("Password : ")
+# name = input("Handle/Email : ")
+# from getpass import getpass
+# pas = getpass("Password : ")
+
+name = 'Hasibur_Rahman'
+pas = '#&35.Ha$ib'
 
 
 import time
