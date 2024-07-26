@@ -2,7 +2,7 @@ name: Run Python Script on Windows
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # Runs at 10:00 UTC (10:00 AM) every day
+    - cron: '0 2 * * *'  # Runs at 02:00 UTC (2 + 6 = 8 AM) every day
   workflow_dispatch:  # Allows manual triggering if needed
 
 jobs:
