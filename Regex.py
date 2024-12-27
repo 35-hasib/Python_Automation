@@ -1,4 +1,4 @@
-import re,pyperclip
+import re, pyperclip
 text = str(pyperclip.paste())
 pno = re.compile(r'(\+8801\d{9}|01\d{9})')
 emal = re.compile(r'[a-zA-Z0-9.-_%+]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{,3}')
